@@ -54,7 +54,7 @@ export const ContentEBook = styled.div`
   img {
     position: absolute;
     top: 50%;
-    left: 3rem;
+    left: 6rem;
     transform: translateY(-50%);
   }
 
@@ -71,6 +71,9 @@ export const ContentEBook = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
+    img {
+      left: 5%;
+    }
     div {
       h2 {
         font-size: 1.5rem;
@@ -84,7 +87,7 @@ export const ContentEBook = styled.div`
 
   @media screen and (max-width: 820px) {
     img {
-      height: 120%;
+      left: 2%;
     }
   }
 
@@ -108,7 +111,7 @@ export const ContentEBook = styled.div`
       height: 80%;
       left: 50%;
       top: -28%;
-      transform: translateX(-50%);
+      transform: translateX(-45%);
     }
   }
 `

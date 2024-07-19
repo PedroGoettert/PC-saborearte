@@ -27,6 +27,7 @@ export function Form() {
     addDoc(collection(db, 'users'), {
       name,
       email,
+      date: new Date().toLocaleString('pt-br'),
     }).then(() => {
       alert('Email cadastrado')
       window.location.href = 'https://www.facebook.com.br' // Usado para fazer o redirecionamento.

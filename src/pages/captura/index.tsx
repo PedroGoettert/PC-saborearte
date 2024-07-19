@@ -1,5 +1,5 @@
-import { EBook } from '../../components/E-book/intex'
-import { Footer } from '../../components/Footer/intex'
+import { EBook } from '../../components/E-book'
+import { Footer } from '../../components/Footer'
 import { Form } from '../../components/Form'
 import {
   ContainerCapturePage,
@@ -7,7 +7,10 @@ import {
   ContainerContentTwo,
   ContentOne,
   ContentTwo,
+  ImageMacarron,
 } from './style'
+import macarronOne from '../../assets/macarron.png'
+import macarronTwo from '../../assets/macarronBlue.png'
 
 import { CheckFat } from '@phosphor-icons/react'
 
@@ -30,6 +33,7 @@ export function CapturePage() {
       </ContainerContentOne>
 
       <ContainerContentTwo>
+        <ImageMacarron src={macarronOne} alt="macarron" position="top" />
         <h2>Por que entrar no nosso Grupo VIP?</h2>
 
         <ContentTwo>
@@ -67,6 +71,8 @@ export function CapturePage() {
             </p>
           </div>
         </ContentTwo>
+
+        <ImageMacarron src={macarronTwo} alt="macarron" position="bottoom" />
       </ContainerContentTwo>
 
       <EBook />

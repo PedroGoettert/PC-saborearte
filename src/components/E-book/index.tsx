@@ -1,5 +1,5 @@
 import { ContainerEBook, ContentEBook } from './style'
-import pictureEBook from '../../assets/ebook.png'
+import pictureEBook from '../../assets/newEbook.png'
 
 export function EBook() {
   return (
